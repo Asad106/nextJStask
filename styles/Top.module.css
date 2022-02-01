@@ -1,0 +1,148 @@
+.container {
+  background-image: linear-gradient(to top right, #031833, #000);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem 4% 8%;
+}
+.secondary {
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  /* text-align: center; */
+}
+.def {
+  background: #d16ba5;
+  background: -webkit-linear-gradient(
+    to right,
+    #d16ba5 0%,
+    #ba83ca 15%,
+    #9a9ae1 43%,
+    #52cffe 71%,
+    #52cffe 100%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    #d16ba5 0%,
+    #ba83ca 15%,
+    #9a9ae1 43%,
+    #52cffe 71%,
+    #52cffe 100%
+  );
+  background: linear-gradient(
+    to right,
+    #d16ba5 0%,
+    #ba83ca 15%,
+    #9a9ae1 43%,
+    #52cffe 71%,
+    #52cffe 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title {
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* White */
+
+  color: #ffffff;
+  margin: 48px 0px;
+}
+.heading {
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: 56px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  margin: 48px 0px;
+}
+.heading1 {
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: 10px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  /* text-align: center; */
+
+  /* White */
+
+  color: #ffffff;
+  margin: 48px 0px;
+}
+.tokens {
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 2rem;
+  /* or 29px */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .tokimg {
+    text-align: center;
+    padding: auto 3rem;
+  }
+  .title {
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    font-feature-settings: "pnum" on, "lnum" on;
+
+    /* White */
+
+    color: #ffffff;
+    text-align: center;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 48px 2px;
+  }
+  .heading {
+    font-size: 5vh;
+  }
+  .heading1 {
+    font-size: 5vh;
+    text-align: center;
+  }
+  .container {
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+}
