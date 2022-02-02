@@ -140,11 +140,11 @@
 @media only screen and (max-width: 768px) {
   .navmenu {
     position: fixed;
-    left: -100%;
+    left: -90%;
     top: 5rem;
     flex-direction: column;
     background-color: #000;
-    width: 100%;
+    width: 90%;
     height: 81vh;
     border-radius: 10px;
     transition: 0.3s;
