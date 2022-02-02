@@ -87,7 +87,6 @@ const TopBlockChain = () => {
           </Grid>
         </Grid>
       </Grid>
-      //{" "}
     </Grid>
   );
 };
