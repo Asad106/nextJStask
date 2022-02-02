@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import styles from "../styles/Navbar.module.css";
+import styles from "../styles/navbar.module.css";
 import SvgIcon from "@mui/material/SvgIcon";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import MenuIcon from "@mui/icons-material/Menu";

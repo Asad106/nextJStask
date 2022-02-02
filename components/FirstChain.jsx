@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import Image from "next/image";
 import React from "react";
-import styles from "../styles/First.module.css";
+import styles from "../styles/first.module.css";
 import img from "../public/images/header.png";
 
 const FirstChain = () => {

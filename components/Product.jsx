@@ -1,7 +1,7 @@
 import { Grid, Paper, Box } from "@mui/material";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
-import styles from "../styles/Product.module.css";
+import styles from "../styles/product.module.css";
 import Image from "next/image";
 import React from "react";
 import { products } from "../constants";

@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import styles from "../styles/Footer.module.css";
+import styles from "../styles/footer.module.css";
 import CustomIcon from "./CustomIcon";
 
 const Footer = () => {

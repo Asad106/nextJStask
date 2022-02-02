@@ -1,6 +1,6 @@
 import { Grid, Paper } from "@mui/material";
 import React from "react";
-import styles from "../styles/Newproject.module.css";
+import styles from "../styles/newproject.module.css";
 import imageTop from "../public/images/imageTop.png";
 import imageBottom from "../public/images/imageBottom.png";
 import Image from "next/image";

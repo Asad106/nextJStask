@@ -2,7 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import { tokens, topChains } from "../constants";
-import styles from "../styles/Top.module.css";
+import styles from "../styles/top.module.css";
 import image from "../public/images/image.png";
 
 const TopBlockChain = () => {

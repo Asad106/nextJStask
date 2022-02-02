@@ -4,7 +4,7 @@ import FirstChain from "../components/FirstChain";
 import NewProjects from "../components/NewProjects";
 import Product from "../components/Product";
 import TopBlockChain from "../components/TopBlockChain";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/home.module.css";
 
 export default function Home() {
   return (
