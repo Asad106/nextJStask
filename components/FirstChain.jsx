@@ -31,7 +31,7 @@ const FirstChain = () => {
         <div>
           <p className={styles.secondary}>
             Our goal is straightforward. Scalability is defined by automation,
-            and trust is defined by protocols.{" "}
+            and trust is defined by protocols.
             <strong className={styles.strong}>Say welcome to Defipad!</strong>
           </p>
         </div>
