@@ -83,7 +83,7 @@ const TopBlockChain = () => {
               alignItems: "center",
             }}
           >
-            <Image alt="complex" src={image} alt="token" />
+            <Image alt="complex" src={image} />
           </Grid>
         </Grid>
       </Grid>

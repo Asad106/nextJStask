@@ -43,7 +43,7 @@ const NewProjects = () => {
             Instant <strong className={styles.def}> Liquidity Lockers </strong>
           </p>
           <p className={styles.secondary}>
-            We're happy to help out our project developers by providing them
+            We are happy to help out our project developers by providing them
             with our security feature, which gives them the ability to lock
             their liquidity provider tokens. The ability to limit liquidity is
             becoming more common in the DeFi space, and we are pleased to

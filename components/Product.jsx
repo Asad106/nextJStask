@@ -85,7 +85,7 @@ const Product = () => {
               the project is worth the Long-term benefits of investors. So
               investors can invest their hard-earned money with very low risk
               and high reward for the long term. All the projects in the Defipad
-              will be KYC verified by the Defipad team. So there won't is any
+              will be KYC verified by the Defipad team. So there wont is any
               risk involved in judging the legality of the project.
             </p>
           </Grid>
