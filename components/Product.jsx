@@ -21,16 +21,7 @@ const Product = () => {
     >
       <Grid container spacing={2}>
         {products?.map((it, index) => (
-          <React.Fragment
-            key={index}
-            sx={{
-              md: {
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              },
-            }}
-          >
+          <React.Fragment key={index}>
             <Grid item xs={10} md={6}>
               <Image src={it.img} alt={`product ${index}`} />
             </Grid>
@@ -44,6 +35,7 @@ const Product = () => {
                       flexDirection: "row",
                       alignItems: "center",
                     }}
+                    key={i}
                   >
                     {index === 1 && i > 2 ? (
                       <span
