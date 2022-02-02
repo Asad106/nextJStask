@@ -62,7 +62,7 @@ const TopBlockChain = () => {
                       sm={12}
                       className={styles.tokimg}
                     >
-                      <Image src={it.img} />
+                      <Image src={it.img} alt="tokens" />
                     </Grid>
                     <Grid item xs={12} md={12} sm={12}>
                       <p className={styles.tokens}>{it.desc}</p>
@@ -83,7 +83,7 @@ const TopBlockChain = () => {
               alignItems: "center",
             }}
           >
-            <Image alt="complex" src={image} />
+            <Image alt="complex" src={image} alt="token" />
           </Grid>
         </Grid>
       </Grid>

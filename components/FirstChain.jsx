@@ -38,7 +38,7 @@ const FirstChain = () => {
       </Grid>
       <Grid item xs={12} sm={6} md={6} lg={6}>
         <div className={styles.imgContainer}>
-          <Image src={img} />
+          <Image src={img} alt="banner" />
         </div>
       </Grid>
     </Grid>
