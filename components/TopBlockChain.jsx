@@ -18,7 +18,7 @@ const TopBlockChain = () => {
       {topChains.map((it, i) => {
         return (
           <Grid key={i} item xs={8} md={3}>
-            <Image src={it.img} />
+            <Image src={it.img} alt="titleimg" />
             <p className={styles.title}>{it.title}</p>
           </Grid>
         );
