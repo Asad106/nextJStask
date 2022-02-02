@@ -1,5 +1,4 @@
 import { Grid } from "@mui/material";
-import { style } from "@mui/system";
 import React from "react";
 import styles from "../styles/Footer.module.css";
 import CustomIcon from "./CustomIcon";

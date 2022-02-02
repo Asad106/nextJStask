@@ -4,7 +4,7 @@ import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import styles from "../styles/Product.module.css";
 import Image from "next/image";
 import React from "react";
-import { products } from "../pages/constants";
+import { products } from "../constants";
 
 const Product = () => {
   return (

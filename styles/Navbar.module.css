@@ -141,13 +141,12 @@
   .navmenu {
     position: fixed;
     left: -100%;
-    top: 4rem;
+    top: 5rem;
     flex-direction: column;
     background-color: #000;
     width: 100%;
-    height: 100vh;
+    height: 81vh;
     border-radius: 10px;
-    text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(10, 9, 9, 0.05);
     z-index: 999999;
@@ -155,15 +154,18 @@
   .icons {
     display: none;
   }
+  .navlink {
+    line-height: 10px;
+  }
   .launchbtn {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 150px;
-    height: 56px;
+    height: 46px;
     /* left: 449px; */
-    top: 8px;
+    top: 4px;
     color: #fff;
 
     /* Gradient/3 */
@@ -191,7 +193,7 @@
   }
 
   .navitem {
-    margin: 1rem 0;
+    margin: 0.3rem 0.2rem;
   }
   .iconsmobile {
     display: flex;
