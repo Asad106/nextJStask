@@ -17,7 +17,7 @@ const TopBlockChain = () => {
       </Grid>
       {topChains.map((it, i) => {
         return (
-          <Grid key={i} item xs={8} md={3}>
+          <Grid key={i} item xs={12} md={3} className={styles.imgTokenGrid}>
             <Image src={it.img} alt="titleimg" />
             <p className={styles.title}>{it.title}</p>
           </Grid>
@@ -62,10 +62,19 @@ const TopBlockChain = () => {
                       sm={12}
                       className={styles.tokimg}
                     >
-                      <Image src={it.img} alt="tokens" />
+                      <Image
+                        src={it.img}
+                        alt="tokens"
+                        style={{ textAlign: "center" }}
+                      />
                     </Grid>
                     <Grid item xs={12} md={12} sm={12}>
-                      <p className={styles.tokens}>{it.desc}</p>
+                      <p
+                        className={styles.tokens}
+                        style={{ textAlign: "center" }}
+                      >
+                        {it.desc}
+                      </p>
                     </Grid>
                   </Grid>
                 </Grid>

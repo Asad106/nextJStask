@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem 4% 8%;
+  padding: 4rem 2rem;
 }
 .secondary {
   font-family: Nunito, sans-serif;
@@ -14,6 +14,8 @@
   line-height: 36px;
   font-feature-settings: "pnum" on, "lnum" on;
   /* text-align: center; */
+}
+.imgTokenGrid {
 }
 .def {
   background: #d16ba5;
@@ -100,7 +102,7 @@
 
   /* Inside auto layout */
 
-  flex: none;
+  /* flex: none; */
   order: 1;
   align-self: stretch;
   flex-grow: 0;
@@ -131,18 +133,24 @@
     margin: 48px 2px;
   }
   .heading {
-    font-size: 5vh;
+    font-size: 4vh;
   }
   .heading1 {
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
   }
   .container {
     background-color: #0a0a0a;
     display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+  }
+  .imgTokenGrid {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
   }
 }
