@@ -51,7 +51,7 @@ const NewProjects = () => {
             strategy.
           </p>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={6} style={{ marginBottom: 10 }}>
           <Image src={imageBottom} alt="bottom" />
         </Grid>
       </Grid>

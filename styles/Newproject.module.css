@@ -71,6 +71,11 @@
   }
   .heading {
     font-size: 7vw;
-    line-height: 36px;
+    line-height: 26px;
+    width: 97%;
+  }
+  .secondary {
+    margin-left: 10px;
+    font-size: 3vh;
   }
 }

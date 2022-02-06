@@ -7,10 +7,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 2.5rem;
+  padding: 0px 2rem;
 }
 .firstItem {
   display: flex;
+  flex: 1;
 }
 .def {
   background: #d16ba5;
@@ -63,15 +64,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex: 1;
 }
 .navmenu {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  flex: 2;
 }
 
 .navitem {
-  margin-left: 3rem;
+  margin-left: 2.5rem;
   color: #fff;
   list-style: none;
 }
@@ -103,13 +106,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 16px 40px;
-
-  position: static;
-  width: 160px;
+  width: 7rem;
   height: 56px;
-  left: 449px;
-  top: 8px;
   color: #fff;
 
   /* Gradient/3 */
@@ -126,11 +124,6 @@
   border-radius: 16px;
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 4;
-  flex-grow: 0;
-  margin: 0px 24px;
 }
 
 .iconsmobile {
@@ -164,6 +157,7 @@
     align-items: center;
     width: 150px;
     height: 46px;
+    margin-top: 0.5rem;
     /* left: 449px; */
     top: 4px;
     color: #fff;
@@ -203,5 +197,10 @@
     cursor: pointer;
     background-color: black !important;
     border: none;
+  }
+}
+@media only screen and (max-width: 950px) and (min-width: 774px) {
+  .launchbtn {
+    display: none;
   }
 }

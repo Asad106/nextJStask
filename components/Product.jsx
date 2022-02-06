@@ -65,6 +65,7 @@ const Product = () => {
       <Box
         sx={{
           backgroundColor: "#141414",
+          padding: 2,
         }}
       >
         <Grid container spacing={2}>

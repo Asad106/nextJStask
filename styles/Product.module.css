@@ -74,6 +74,7 @@
   font-family: "Avenir Next";
   font-size: 1.2rem;
   padding: 0.5rem 2.5rem;
+  margin: 1rem 0.3rem;
   color: #fff;
   box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
   border: solid 2px transparent;
@@ -107,6 +108,9 @@
     font-size: 7vw;
   }
   .headerbtn {
-    margin: auto;
+    margin: 1rem 0.4rem;
+  }
+  .secondary {
+    padding: 10;
   }
 }
