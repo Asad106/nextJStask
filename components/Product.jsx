@@ -8,13 +8,13 @@ import { products } from "../constants";
 
 const Product = () => {
   return (
-    <Paper
-      sx={{
+    <div
+      style={{
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        padding: "4rem 4rem",
+        padding: "4rem 3rem",
         background:
           " radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 92%, rgba(0,0,0,1) 100%, rgba(9,73,73,1) 100%)",
       }}
@@ -65,7 +65,7 @@ const Product = () => {
       <Box
         sx={{
           backgroundColor: "#141414",
-          padding: 2,
+          padding: 1,
         }}
       >
         <Grid container spacing={2}>
@@ -101,7 +101,7 @@ const Product = () => {
         </p>
         <button className={styles.headerbtn}>Apply to Launch</button>
       </Box>
-    </Paper>
+    </div>
   );
 };
 

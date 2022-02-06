@@ -130,7 +130,15 @@ const Navbar = () => {
         </ul>
 
         <button className={styles.hamburger} onClick={openMenu}>
-          <MenuIcon sx={{ color: "white", backgroundColor: "black" }} />
+          {isOpen ? (
+            <p
+              style={{ color: "white", backgroundColor: "black", fontSize: 18 }}
+            >
+              X
+            </p>
+          ) : (
+            <MenuIcon sx={{ color: "white", backgroundColor: "black" }} />
+          )}
         </button>
       </nav>
     </header>

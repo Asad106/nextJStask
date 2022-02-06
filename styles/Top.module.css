@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 4rem 3rem;
 }
 .secondary {
   font-family: Nunito, sans-serif;
@@ -99,14 +99,15 @@
   /* White */
 
   color: #ffffff;
+  text-align: center;
 
   /* Inside auto layout */
 
   /* flex: none; */
   order: 1;
-  align-self: stretch;
+  /* align-self: stretch; */
   flex-grow: 0;
-  margin: 16px 0px;
+  /* margin: 16px 0px; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -133,19 +134,19 @@
     margin: 48px 2px;
   }
   .heading {
-    font-size: 4vh;
+    font-size: 3.8vh;
   }
   .heading1 {
-    font-size: 4vh;
+    font-size: 3.8vh;
     text-align: center;
   }
   .container {
     background-color: #0a0a0a;
     display: flex;
     /* flex-direction: column; */
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    padding: 0.3rem;
+    /* padding: 0.3rem; */
   }
   .imgTokenGrid {
     display: flex;

@@ -210,7 +210,9 @@
     background-color: #0a0a0a;
     display: flex;
     flex-direction: column-reverse;
-    padding: 3rem 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
   }
   .btndiv {
     display: flex;

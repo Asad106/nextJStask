@@ -32,7 +32,7 @@ const TopBlockChain = () => {
           <Grid item xs={12} md={6} sm={6}>
             <p className={styles.heading1}>
               DEFIPAD
-              <span className={styles.def} style={{ paddingLeft: 2 }}>
+              <span className={styles.def} style={{ paddingLeft: 1 }}>
                 Ecosystem
               </span>
             </p>
@@ -49,7 +49,7 @@ const TopBlockChain = () => {
                 <Grid item xs={12} md={6} sm={6} key={i}>
                   <Grid
                     container
-                    spacing={2}
+                    spacing={1}
                     sx={{
                       display: "flex",
                       flexDirection: "row",
@@ -69,12 +69,7 @@ const TopBlockChain = () => {
                       />
                     </Grid>
                     <Grid item xs={12} md={12} sm={12}>
-                      <p
-                        className={styles.tokens}
-                        style={{ textAlign: "center" }}
-                      >
-                        {it.desc}
-                      </p>
+                      <p className={styles.tokens}>{it.desc}</p>
                     </Grid>
                   </Grid>
                 </Grid>
