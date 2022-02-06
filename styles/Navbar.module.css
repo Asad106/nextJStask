@@ -130,15 +130,16 @@
 @media only screen and (max-width: 768px) {
   .navmenu {
     position: fixed;
-    left: -90%;
+    left: -100%;
     top: 3.6rem;
-    flex-direction: column;
-    background-color: #000;
-    width: 90%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(10, 9, 9, 0.05);
     z-index: 999999;
@@ -148,15 +149,17 @@
   }
   .navlink {
     line-height: 10px;
+    font-size: 18px;
   }
   .launchbtn {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 100%;
     height: 46px;
     margin-top: 0.5rem;
+    cursor: pointer;
     /* left: 449px; */
     top: 4px;
     color: #fff;

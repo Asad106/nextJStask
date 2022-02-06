@@ -65,7 +65,7 @@ const TopBlockChain = () => {
                       <Image
                         src={it.img}
                         alt="tokens"
-                        style={{ textAlign: "center" }}
+                        className={{ textAlign: "center" }}
                       />
                     </Grid>
                     <Grid item xs={12} md={12} sm={12}>
