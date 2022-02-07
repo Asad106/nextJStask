@@ -150,6 +150,7 @@
   .navlink {
     line-height: 10px;
     font-size: 18px;
+    margin-right: 3rem;
   }
   .launchbtn {
     display: flex;
@@ -159,6 +160,7 @@
     width: 100%;
     height: 46px;
     margin-top: 0.5rem;
+    margin-right: 3rem;
     cursor: pointer;
     /* left: 449px; */
     top: 4px;
