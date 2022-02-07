@@ -184,7 +184,6 @@
     flex: none;
     order: 4;
     flex-grow: 0;
-    margin: 0px 24px;
   }
   .navmenu.active {
     left: 0;
